@@ -49,7 +49,7 @@ const App = () => {
             level={5}
             style={{ color: "white", textAlign: "center" }}
           >
-            CryptoTatya
+            CryptoTatya.
             <br />
             @All rights reserverd
           </Typography.Title>
