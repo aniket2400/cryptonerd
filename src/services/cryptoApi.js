@@ -5,7 +5,9 @@ const cryptoApiHeaders = {
   // "x-rapidapi-key": "73572431e7msh76a058806121977p129a77jsncce6b904cff0",
   "x-rapidapi-key": "coinranking8b890507f17fcab9b9a3cc4702e5707d6728d7f379ce470d",
   // "x-access-token": "i-have-to-migrate-to-v2"
-  "x-access-token": "coinranking8b890507f17fcab9b9a3cc4702e5707d6728d7f379ce470d"
+  "x-access-token": "coinranking8b890507f17fcab9b9a3cc4702e5707d6728d7f379ce470d",
+  'Access-Control-Allow-Credentials': true,
+  'Access-Control-Allow-Origin': window.location.origin 
 };
 
 const baseUrl = "https://api.coinranking.com/v2";
