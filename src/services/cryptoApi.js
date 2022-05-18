@@ -7,7 +7,7 @@ const cryptoApiHeaders = {
   // "x-access-token": "i-have-to-migrate-to-v2"
 };
 
-const baseUrl = "https://coinranking1.p.rapidapi.com";
+const baseUrl = "https://api.coinranking.com/v2";
 
 const createRequest = url => ({ url, headers: cryptoApiHeaders });
 
