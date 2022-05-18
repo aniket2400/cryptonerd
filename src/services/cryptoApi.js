@@ -7,7 +7,7 @@ const cryptoApiHeaders = {
   // "x-access-token": "i-have-to-migrate-to-v2"
   "x-access-token": "coinranking8b890507f17fcab9b9a3cc4702e5707d6728d7f379ce470d",
   'Access-Control-Allow-Credentials': true,
-  'Access-Control-Allow-Origin': window.location.origin 
+  'Access-Control-Allow-Origin': "*"
 };
 
 const baseUrl = "https://api.coinranking.com/v2";
